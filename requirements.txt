@@ -1,0 +1,23 @@
+# Core numerical + DSP
+numpy>=1.23
+scipy>=1.11
+librosa>=0.10
+
+# Audio I/O
+pyaudio>=0.2.13
+
+# Computer vision
+opencv-python>=4.8
+
+# Neural inference
+onnxruntime>=1.17
+# If you have a working NVIDIA driver & CUDA: swap the line above for:
+# onnxruntime-gpu>=1.17
+
+# Plotting / debugging (optional, only used in utils)
+matplotlib>=3.8
+
+# Objective metrics (optional, for offline eval)
+pesq>=0.0.4      # ITU PESQ
+# pystoi>=0.4.1  # (optional SI-SDR / STOI support; uncomment if needed)
+
